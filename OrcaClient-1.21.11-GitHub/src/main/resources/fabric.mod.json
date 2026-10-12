@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "orca_client",
+  "version": "${version}",
+  "name": "Orca Client",
+  "description": "An original ocean-themed Minecraft client foundation.",
+  "authors": ["Orca Client contributors"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.orca.client.OrcaClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
